@@ -1,17 +1,19 @@
-﻿using System;
+﻿/*
+string[] fraudulentOrderIDs = new string[3];
 
-namespace YourNamespace
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Erstellen einer Instanz von Array_Loops
-            Array_Loops myClass = new Array_Loops();
+fraudulentOrderIDs[0] = "A123";
+fraudulentOrderIDs[1] = "B456";
+fraudulentOrderIDs[2] = "C789";
+// fraudulentOrderIDs[3] = "D000";
+*/
 
-            // Aufruf der Methode zum Ausgeben der Array-Werte
-            myClass.PrintFraudulentOrderIDs();
-        }
-    }
-}
+string[] fraudulentOrderIDs = { "A123", "B456", "C789" };
+
+Console.WriteLine($"First: {fraudulentOrderIDs[0]}");
+Console.WriteLine($"Second: {fraudulentOrderIDs[1]}");
+Console.WriteLine($"Third: {fraudulentOrderIDs[2]}");
+
+fraudulentOrderIDs[0] = "F000";
+
+Console.WriteLine($"Reassign First: {fraudulentOrderIDs[0]}");
 
