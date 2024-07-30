@@ -1,0 +1,7 @@
+{
+  "editor.indentSize": "tabSize",
+  "[csharp]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  }
+}
