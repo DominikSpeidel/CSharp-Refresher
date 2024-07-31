@@ -36,12 +36,28 @@ fraudulentOrderIDs[2] = "C789";
 
 //-------------------------------------------------------
 
-string[] fradulentIDs = { "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179" };
+// string[] fradulentIDs = { "B123", "C234", "A345", "C15", "B177", "G3003", "C235", "B179" };
 
-foreach (string ID in fradulentIDs)
-{
-    if (ID.StartsWith("B"))
-    {
-        Console.WriteLine(ID);
-    }
-}
+// foreach (string ID in fradulentIDs)
+// {
+//     if (ID.StartsWith("B"))
+//     {
+//         Console.WriteLine(ID);
+//     }
+// }
+
+//-----------------------------------------------------
+// Console.WriteLine("a" == "a");
+// Console.WriteLine("a" == "A");
+// Console.WriteLine(1 == 2);
+
+// string myValue = "a";
+// Console.WriteLine(myValue == "a");
+
+// string value1 = " a";
+// string value2 = "A ";
+// Console.WriteLine(value1.Trim().ToLower() == value2.Trim().ToLower());
+
+string pangram = "The quick brown fox jumps over the lazy dog.";
+Console.WriteLine(pangram.Contains("fox"));
+Console.WriteLine(pangram.Contains("cow"));
