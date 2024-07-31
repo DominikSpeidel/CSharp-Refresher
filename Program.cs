@@ -58,6 +58,32 @@ fraudulentOrderIDs[2] = "C789";
 // string value2 = "A ";
 // Console.WriteLine(value1.Trim().ToLower() == value2.Trim().ToLower());
 
-string pangram = "The quick brown fox jumps over the lazy dog.";
-Console.WriteLine(pangram.Contains("fox"));
-Console.WriteLine(pangram.Contains("cow"));
+// string pangram = "The quick brown fox jumps over the lazy dog.";
+// Console.WriteLine(pangram.Contains("fox"));
+// Console.WriteLine(pangram.Contains("cow"));
+
+// // These two lines of code will create the same output
+
+// Console.WriteLine(pangram.Contains("fox") == false);
+// Console.WriteLine(!pangram.Contains("fox"));
+
+// int saleAmount = 1001;
+// int discount = saleAmount > 1000 ? 100 : 50;
+// Console.WriteLine($"Discount: {discount}");
+
+// int saleAmount = 1001;
+// // int discount = saleAmount > 1000 ? 100 : 50;
+
+// Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50)}");
+
+
+// Random coin = new Random();
+// int flip = coin.Next(0, 2);
+// Console.WriteLine((flip == 0) ? "heads" : "tails");
+
+
+// var coin = new Random();
+// // Console.WriteLine((coin.Next(0, 2) == 0) ? "heads" : "tails");
+
+string permission = "Admin|Manager";
+int level = 55;
