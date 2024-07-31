@@ -85,5 +85,48 @@ fraudulentOrderIDs[2] = "C789";
 // var coin = new Random();
 // // Console.WriteLine((coin.Next(0, 2) == 0) ? "heads" : "tails");
 
-string permission = "Admin|Manager";
-int level = 55;
+
+//---------------------------------------------------------------------
+
+// string permission = "Admin|Manager";
+// int level = 53;
+
+// if (permission.Contains("Admin"))
+// {
+//     if (level > 55)
+//     {
+//         Console.WriteLine("Welcome, Super Admin user.");
+//     }
+//     else
+//     {
+//         Console.WriteLine("Welcome, Admin user.");
+//     }
+// }
+// else if (permission.Contains("Manager"))
+// {
+//     if (level >= 20)
+//     {
+//         Console.WriteLine("Contact an Admin for access.");
+//     }
+//     else
+//     {
+//         Console.WriteLine("You do not have sufficient privileges.");
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("You do not have sufficient privileges.");
+// }
+
+//-----------------------------------------------------------------------
+
+bool flag = true;
+int value = 0;
+
+if (flag)
+{
+    Console.WriteLine($"Inside the code block: {value}");
+}
+
+value = 10;
+Console.WriteLine($"Outside the code block: {value}");
